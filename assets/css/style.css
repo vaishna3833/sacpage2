@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.slanted {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("../images/headsand.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0px;
+  }
+  .slanted:after,.slanted:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+  }
+.slanted-bottom.slant-to-left:after {
+    top: 400px;
+    border-bottom: 100px solid #fff;
+    border-left: 500px solid #f5eeee00;
+  }
+  .pizza{
+      background:#fff;
+      width:480px;
+      height: 120px;
+      overflow: visible;
+      position: absolute;
+      top:150px;
+      color:black;
+      left:200px;
+      padding: 20px 20px 5px 30px;
+  }
+  .pizza:after,.pizza:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+  }
+.pizza-bottom.pizza-to-left:after {
+    top: 119px;
+    border-bottom: 30px solid rgba(255, 255, 255, 0);
+    border-left: 480px solid #fff;
+    left:0px;
+  }
+  .pizza .fa-star{
+      color: orange;
+      
+      
+  }
+  .pizza p{
+      font-weight:500;
+      margin-top: 5px;
+  }
+  .hr{
+      width: 200px;
+      background:rgb(201, 191, 191);
+      padding: 5px 5px;
+      margin-top: 12px;
+      border-radius: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+  }
+  .hr .hr2,.hr3{
+    border-left: 2px solid rgba(168, 156, 156, 0.973) ;
+    height:30px;
+    padding: 2px;
+  }
+
+.head .b1{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}  
+.head .b2{
+      width: 140px;
+      padding:0;
+      background:transparent;
+      color: black;
+      border:1px solid black;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 500;
+  }
+.b2 i{
+    margin-left: 15px;
+}
+.head .b3{
+    text-decoration: none;
+    color: rgb(68, 59, 59);
+    font-size: 15px;
+    font-weight: 500;
+}
+  .head select{
+      width:140px;
+      height:26px;
+      font-size: 14px;
+      background:rgba(95, 92, 92, 0.205);
+      border:none;
+      border-radius: 20px;
+      padding: 3px 8px ;
+      font-weight: 500;
+  }
+.cats hr{
+    height: 2px;
+}
+.cbt div{
+    margin: 10px 25px 10px 0;
+}
+.cbt a{
+    width: 110px;
+    border:0px solid black;
+    border-radius: 20px;
+    background: #fff;
+    color: black;
+    padding:3px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    background:rgba(95, 92, 92, 0.205);
+}
+.cbt a:hover{
+    background: #fff;
+}
+
+.mostc{
+    background: white;
+    border-radius: 5px;
+}
+.mostc h5{
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.mostc p{
+    font-size: 13px;
+}
+.mostc i{
+    color:orange;
+    font-size: 14px;
+}
+.mosth{
+    width: 100%;
+}
+.px-2{
+    margin-right:-15px;
+}
+.mosth p{
+    margin-top: -12px;
+    font-size: 15px;
+    
+}
+.mosth span{
+    font-size: 14px;
+    font-weight: 700;
+}
+.mosth .fa-euro-sign{
+    color:rgb(26, 10, 85)!important;
+    width:14px;
+    height:14px;
+    padding:1px;
+    border:solid 1px rgb(26, 10, 85);
+    border-radius:50%;
+    font-size: 12px;
+}
+.mostd{
+    width: 100%;
+    height: auto;
+    padding: 15px 15px!important;
+}
+.mostd h5{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.mostd p{
+    font-size: 13px;
+}
+.mostd i{
+    color:orange;
+}
+
+.navbar, .nvmenu{ 
+     margin:-5px 0;
+     padding-bottom: 5px;
+     color: white;
+     display:flex;
+     align-items:center;
+     padding:20px;
+ }
+ .navbar-nav a{
+     color: white !important;
+ }
+ .dropdown-toggle{
+     width:120px;
+     background:none; 
+      border: 1px solid white;
+      color:white;
+      border-radius: 5px;
+ }
+ .login{
+     width:120px;
+     background:white; 
+      border: 1px solid white;
+      color:#f44336;
+      border-radius: 5px;
+      font-size:15px;
+      margin-right:10px;
+ }
+ .login:hover {
+   background-color: red;
+   color: white;
+ }
+ .btn{
+    border: 1px solid white;
+    width:50px;
+}
+.fa-shopping-cart{
+   color:white;
+}
+nav{
+   flex:1;
+   text-align:right;
+}
+nav ul{
+   display:inline-block;
+   
+}
+nav ul li{
+    display:inline-block;
+    margin-right:10px;
+}
+
+
+.social-media{
+    background:rgb(53 51 51);
+    padding-bottom:4%;
+    text-align:center;
+}
+.fab {
+  padding: 5px 5px;
+  font-size: 35px;
+  width:35x;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10%;
+}
+.fa:hover {
+  opacity: 0.2;
+}
+.fa-facebook-f {
+background: #3B5998; 
+color: #fff;
+width: 40px;
+}
+.fa-twitter {
+  background: #3B5998;
+  color: white;
+  
+}
+.fa-instagram {
+  background:#c61118;
+  color: white;
+}
+.social-media h3{
+    margin-top:10%;
+    color:#fff;
+}
+.social-media a{
+    margin-top:10%;
+    margin-right:5%;
+    
+}
+.ff{
+    background: rgba(212, 206, 206, 0.384);
+}
+.about{
+   margin-left:10%;
+   margin-top:5%;
+}
+.about a{
+    text-align:left;
+    color:black;
+    text-decoration:none;
+    word-spacing: 30px;
+}
+.contact{
+  
+   margin-top:5%;
+}
+.contact a{
+    text-align:left;
+    color:black;
+    text-decoration:none;
+    word-spacing: 30px;
+}
+.legal{
+   margin-top:5%;
+}
+.legal a{
+    text-align:left;
+    color:black;
+    text-decoration:none;
+    word-spacing: 30px;
+}
+.play{
+       margin-top:5%;
+}
+.footer{
+    background:red;
+}
+.footer p{
+    color:white;
+}
+.card{
+    transition:transform 0.5s;
+}
+.card:hover{
+    transform:translateY(-5px);
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .slanted {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        background: url("../images/headsand.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        margin: 0px;
+        overflow: visible;
+
+         -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+      .slanted:after,.slanted:before {
+      }
+    .slanted-bottom.slant-to-left:after {
+      }
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .slanted {
+        position: relative;
+        width: 100%;
+        height: 320px;
+        background: url("../images/headsand.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        margin: 0px;
+
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+    .cbt div{
+        margin: 10px 35px 10px 0;
+    }
+    .cbt a{
+        font-size: 12px;
+        width: 90px;
+    }
+   
+    
+
+    .pizza{
+        background:#fff;
+        width:480px;
+        height: 120px;
+        overflow: visible;
+        position: absolute;
+        top:130px;
+        color:black;
+        left:150px;
+        padding: 20px 20px 5px 30px;
+    }
+    .pizza:after,.pizza:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 0;
+    }
+   .pizza-bottom.pizza-to-left:after {
+      top: 119px;
+      border-bottom: 20px solid rgba(255, 255, 255, 0);
+      border-left: 480px solid #fff;
+      left:0px;
+    }
+    .pizza .fa-star{
+        color: orange;
+        
+        
+    }
+    .pizza p{
+        font-weight:500;
+        margin-top: 5px;
+    }
+    .hr{
+        width: 200px;
+        background:rgb(201, 191, 191);
+        padding: 5px 5px;
+        margin-top: 12px;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .hr .hr2,.hr3{
+      border-left: 2px solid rgba(168, 156, 156, 0.973) ;
+      height:30px;
+      padding: 2px;
+    }
+
+    .mostc h5{
+        font-size: 17px;
+    }
+    .mostc p{
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (min-width:601px) and (max-width: 800px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .slanted {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        background: url("../images/headsand.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        margin: 0px;
+
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+     
+    .cbt div{
+        margin: 10px 35px 10px 0;
+    }
+    .cbt a{
+        font-size: 12px;
+        width: 90px;
+    }
+      .pizza{
+        background:#fff;
+        width:300px;
+        height: 90px;
+        overflow: visible;
+        position: absolute;
+        top:70px;
+        color:black;
+        left:100px;
+        padding: 10px 20px 0px 20px;
+        font-size: 10px;
+    }
+    .pizza h4{
+        font-size: 16px;
+    }
+    .pizza:after,.pizza:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 0;
+    }
+  .pizza-bottom.pizza-to-left:after {
+      top: 89px;
+      border-bottom: 15px solid rgba(255, 255, 255, 0);
+      border-left: 300px solid #fff;
+      left:0px;
+    }
+    .pizza .fa-star{
+        margin-top: 5px;
+        color: orange;
+        
+        
+    }
+    .pizza p{
+        font-weight:500;
+        margin-top: 5px;
+    }
+    .hr{
+        width: 120px;
+        background:rgb(201, 191, 191);
+        padding: 4px 4px;
+        margin-top: 12px;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+    }
+    .hr .hr2,.hr3{
+      border-left: 2px solid rgba(168, 156, 156, 0.973) ;
+      height:30px;
+      padding: 2px;
+    }
+
+    .ff{
+        width: 100%;
+    }
+    .social-media{
+        width: 100%!important;
+    }
+    .social-media h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .social-media a{
+        margin-top: 20px;
+        margin:5px 10px;
+    }
+    .play img{
+        margin:4px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .slanted {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background: url("../images/headsand.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        margin: 0px;
+
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+     
+    .pizza{
+        background:#fff;
+        width:250px;
+        height: 90px;
+        overflow: visible;
+        position: absolute;
+        top:70px;
+        color:black;
+        left:100px;
+        padding: 10px 5px 0px 20px;
+        font-size: 8px;
+    }
+    .pizza h4{
+        font-size: 12px;
+    }
+    .pizza:after,.pizza:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 0;
+    }
+    .pizza-bottom.pizza-to-left:after {
+      top: 79px;
+      border-bottom: 15px solid rgba(255, 255, 255, 0);
+      border-left: 250px solid #fff;
+      left:0px;
+    }
+    .pizza .fa-star{
+        margin-top: 5px;
+        color: orange;
+    }
+    .pizza p{
+        font-weight:500;
+        margin-top: 5px;
+    }
+    .hr{
+        width: 60px;
+        background:rgb(201, 191, 191);
+        padding: 4px 4px;
+        margin-top: 12px;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+    }
+    .hr .hr2,.hr3{
+      border-left: 2px solid rgba(168, 156, 156, 0.973) ;
+      height:30px;
+      padding: 2px;
+    }
+}
+
